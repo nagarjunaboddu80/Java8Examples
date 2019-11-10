@@ -26,7 +26,6 @@ public class LambdaExample1 {
 	System.out.println("-----------------lambda double comparision--------------------------");
 	pList.sort(( p01 , p21)-> Double.compare(p01.getSalary(), p21.getSalary()));
 	pList.forEach(person-> System.out.println(person.toString()));
-	System.out.println("-------------------------------------------");
 	}
 	
 }
